@@ -67,4 +67,4 @@ tidy_data   = dcast(melt_data, subjectID + activity ~ variable, mean)
 
 # 7. Write the result to file
 print("Write the result to file")
-write.table(tidy_data, file = "./tidy_data.txt", sep="\t")
+write.table(tidy_data, file = "./tidy_data.txt", sep="\t", row.names = FALSE)
