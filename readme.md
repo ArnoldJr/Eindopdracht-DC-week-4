@@ -14,9 +14,9 @@ You should create one R script called run_analysis.R that does the following.
 ## Steps to work on this course project
 
 
-1. Download the  required file "run_analysis.R" and optionaly the files "readme.md", "codebook.md" and "tidy_data.txt"
+1. Download the  required file ```run_analysis.R``` and optionaly the files ```readme.md```, ```codebook.md``` and ```tidy_data.txt```
 2. Make sure that required packages ```reshape2``` and ```data.table``` are installed, the script will load the packages  automatically
-3. The file "run_analysis.R" will automatically download and extract the files
+3. The file ```run_analysis.R``` will automatically download and extract the files
 4. The data will be modeld to tidy data with the means and std
 5. The output file "tidy_data.txt" will contain the means and stdof each variable for each activity and each subject.
 
@@ -26,4 +26,4 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Notes
 
-Tested on Windows 8.1, this can mather for the download method.('auto' vs 'curl')
+Tested on Windows 8.1, this can mather for the download method.(```auto``` vs ```curl```)
