@@ -52,7 +52,7 @@ There are 5 parts:
 * Transform and add the means of each variable for each activity and each subject to the new dataset
 * create file ```tidy_data.txt``` containing the new dataset
 
-## The output data "tidy_data.txt"
+## The output data ```tidy_data.txt```
 Contains the merged and transformed data for each subject and each activity.
 Struture:
 
