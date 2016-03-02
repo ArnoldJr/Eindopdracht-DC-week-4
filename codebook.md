@@ -17,14 +17,14 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 The dataset includes the following files:
 
-* 'README.txt'
-* 'features_info.txt': Shows information about the variables used on the feature vector.
-* 'features.txt': List of all 561 features.
-* 'activity_labels.txt': Links the class labels with the 6 activity names.
-* 'train/X_train.txt': Training set containing 7352 observations.
-* 'train/y_train.txt': Training labels containing 7352 integers.
-* 'test/X_test.txt': Test set containing 2947 observations.
-* 'test/y_test.txt': Test labels containing 2947 integers.
+* ```README.txt```
+* ```features_info.txt```: Shows information about the variables used on the feature vector.
+* ```features.txt```: List of all 561 features.
+* ```activity_labels.txt```: Links the class labels with the 6 activity names.
+* ```train/X_train.txt```: Training set containing 7352 observations.
+* ```train/y_train.txt```: Training labels containing 7352 integers.
+* ```test/X_test.txt```: Test set containing 2947 observations.
+* ```test/y_test.txt```: Test labels containing 2947 integers.
 
 The following files are available for the train and test data. Their descriptions are equivalent.
 
@@ -50,13 +50,13 @@ There are 5 parts:
 * Process the data. There are two parts processing test and train data respectively.
 * Merge data set.
 * Transform and add the means of each variable for each activity and each subject to the new dataset
-* create file "tidy_data.txt" containing the new dataset
+* create file ```tidy_data.txt``` containing the new dataset
 
 ## The output data "tidy_data.txt"
 Contains the merged and transformed data for each subject and each activity.
 Struture:
 
-* subjectID
-* activity
-* "tBodyAcc-mean()-X" to "angle(Y,gravityMean)" contains the statistical information for each measurement ('mean', 'std', 'max', 'min')
+* ```subjectID```
+* ```activity```
+* ```tBodyAcc-mean()-X``` to ```angle(Y,gravityMean)``` contains the statistical information for each measurement (```mean```, ```std```, ```max```, ```min```)
 
